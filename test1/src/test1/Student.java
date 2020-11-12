@@ -7,5 +7,9 @@ public class Student {
 		age = 15;
 		name = "Kalle";
 	}
+	
+	public int getAge() {
+		return age;
+	}
 
 }
