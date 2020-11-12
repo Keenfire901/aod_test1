@@ -12,5 +12,13 @@ public class Kiosk {
 		meny.add("Hamburgare");
 		meny.add("Läsk");
 	}
+	
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		for(String menyVal : meny) {
+			sb.append(menyVal+", ");
+		}
+		return sb.substring(0, sb.length()-2);
+	}
 
 }
