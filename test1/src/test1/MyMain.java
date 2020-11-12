@@ -4,8 +4,7 @@ public class MyMain {
 
 	public static void main(String[] args) {
 		System.out.println("Skriver ut något");
-		
-		System.out.println("another one");
+		System.out.println("Never mind");
 	}
 
 }
